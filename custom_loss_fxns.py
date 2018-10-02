@@ -15,3 +15,5 @@ def weighted_mse_loss(input, target):
     out = pct_var * weights.expand_as(target)
     loss = out.mean() 
     return loss
+
+
